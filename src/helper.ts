@@ -5,3 +5,7 @@ export const wait = (time: number, isReject: boolean = false) => {
     }, time);
   })
 }
+
+export const randomNumber = () => {
+  return Math.floor(Math.random() * 11);
+}
